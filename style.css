@@ -31,11 +31,17 @@ form input, form button {
 
 form button {
   color: green;
-  background: yellow;
+  background: palevioletred;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 form button:hover{
-  background: grey;
-  color:aqua
+  background: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
